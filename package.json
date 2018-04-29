@@ -1,0 +1,16 @@
+{
+  "name": "neurio",
+  "version": "1.0.0",
+  "description": "Add your neurio energy readings to an inflx DB",
+  "dependencies": {
+    "influx": "^1.0.0",
+    "neurio": "^1.0.0"
+  },
+  "main": "src/neurio-influx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
