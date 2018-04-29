@@ -19,7 +19,10 @@ global.logger = winston.createLogger({
 var logger = global.logger;
 
 
-
+// ************************************
+// Provides encapsulation for the process of collecting and writing
+// data values to InfluxDB
+// ************************************
 function NIManager() {
   this.influx = new Influx.InfluxDB({
     host: influxServer,
